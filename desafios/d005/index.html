@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Redes Sociais</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        body{
+            font-family: "Open Sans", serif;
+            text-align: center;
+            background-color:#1f4f66;
+        }
+        h1{
+            font-family: serif;
+            font-size: 3.5em;
+            text-decoration: underline;
+            text-align: center;
+            color:#042B3D;
+        }
+        main{
+            background-color: white;
+            width: 700px;
+            height: 600px;
+            padding: 30px;
+            padding-top: 5px;
+            margin: auto;
+            box-shadow: 5px 5px 15px #5f88ce;
+            border-radius: 10px;
+            font: normal lighter 1em 'Open Sans', sans-serif;
+            text-align: center;
+            border: 2px solid black;
+        }
+        a.links{
+            color: rgb(8, 144, 168);
+            text-decoration: none;
+            font-weight: lighter;
+        }
+        a.links:hover{
+            background-color: rgb(83, 212, 83);
+        }
+        a.links::before{
+            content: ' ⇒';
+            color: black;
+        }
+        address{
+            text-decoration: underline;
+        }
+        div#texto > p{
+            display: none;
+        }
+        div#texto:hover > p{
+            display: block;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-decoration: underline;
+            border-radius: 10px;
+            margin: auto;
+            width: 400px;
+        }
+        div#contato{
+            background-color: #73b7cc;
+            border-radius: 10px;
+            border: 1px solid black;
+            width: 500px;
+            margin: auto;
+            font-weight: normal;
+        }
+        abbr{
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #destaque{
+            text-decoration: underline;
+            font-weight: bold;
+            color: black;
+        }
+        a.links:visited{
+        color: blue;
+          font-weight: bolder;
+          font-family: 'Open Sans' sans-serif;
+        }
+        #subcaixa{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Minhas Redes Sociais</h1>
+        <h2>Quem sou eu? ...</h2>
+        <img src="fotos/eu.jpg" alt="FotoDePerfil">
+            <p>Meu nome é <strong>Mateus Teixeira Santos</strong> sou um jovem de 16 anos que mora na cidade de:
+            <div id="texto">
+                <address>Salinas-MG &#x1F4CC</address> <p>Rua Arthur Americano Mendes 412-A, Casa Blanca</p>
+            </div>
+            <p>atualmente estou estudando desenvolvimento web, no momento <abbr title="Hyper Text Mark Linguage">HTML</abbr> e <abbr title="Cascatle Style Source">CSS</abbr>, trabalho como <a href="https://www.instagram.com/guardamirimsalinas/" id="destaque" target="_blank">Guarda Mirim</a> e estou no 2 ano do ensino médio. <br>em breve serei Programador Full Stack!</p>
+            <div id="contato">
+                <h2 id="subcaixa">Como falar comigo?</h2>
+                <ul style="text-align: left;">
+                    <li><img src="fotos/icone-instagram.png" alt="IconeInstagram"> <a href="https://www.instagram.com/teuz_teixeiira/" rel="external" target="_blank" class="links">https://www.instagram.com/teuz_teixeiira/</a>- Me segue la no Instagram!</li>
+                    <li><img src="fotos/icone-youtube.png" alt="Icone Youtube"><a href="https://www.youtube.com/@mateuszuebr7178" rel="external" target="_blank" class="links">https://www.youtube.com/@mateuszuebr7178</a>- Se inscreva no meu canal no Youtube!</li>
+                    <li><img src="fotos/icone-github.png" alt="IconeGithub"><a href="https://github.com/Teuz-TDev" target="_blank" rel="external" class="links">https://github.com/Teuz-TDev</a>- De uma olhada la no meu GitHub!</li>
+                </ul>
+            </div>
+                    <p style="font-size: 2em; text-decoration: underline; color: white;">Obrigado por acessar meu site!</p>
+            
+    </main>
+</body>
+</html>
